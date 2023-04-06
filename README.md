@@ -30,7 +30,7 @@ Replace **[API_KEY]** with your Google API key.
 
 **For example;** 
 
-`python main.py "123456789"`
+`python main.py 123456789`
 
 The program will retrieve the comments for the specified video and analyze them using NLP techniques. It will then output the overall score for the video.
 
