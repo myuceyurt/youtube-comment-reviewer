@@ -2,10 +2,11 @@ import googleapiclient.discovery
 from googletrans import Translator
 import textblob
 import random
+import sys
 
 api_service_name = "youtube"
 api_version = "v3"
-DEVELOPER_KEY = "API_KEY_HERE"
+DEVELOPER_KEY = sys.argv[1]
 
 def getComments(id,api_service_name,api_version,DEVELOPER_KEY):    
     youtube = googleapiclient.discovery.build(
